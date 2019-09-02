@@ -1,0 +1,63 @@
+html,body,head,div,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,footer,nav,header{
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol {
+  list-style: none;   /* 将原来的默认的小圆点给清除 */
+}
+
+a {
+  text-decoration: none;   /* 把a标签默认的下划线给清除 */
+}
+
+input{
+  outline: none;
+}
+
+em,
+i,
+s,
+del,
+ins
+b,
+strong {
+  font-style: normal; /*将原来的默认样式都去除掉,让它变成一个没有默认样式的标签，用于页面中的特定内容的一个修饰*/
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+body{
+  background-color: #f3f6f8;
+  box-sizing: border-box;
+}
+
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content:'.';
+  display:block;
+  clear:both;
+  height:0;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
